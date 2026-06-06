@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# AQUA-IA SECURITY FIXES
+# =========================
+
+# Google Cloud Platform Service Accounts & Credentials
+*.json
+!service_account.example.json
+!package.json
+
+# Archivos de configuración de IDEs (Opcional pero recomendado para código limpio)
+.vscode/
+.idea/
+.DS_Store
